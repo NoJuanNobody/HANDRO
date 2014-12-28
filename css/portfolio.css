@@ -21,16 +21,16 @@ p {
 }
 .navbar-custom{
 	background-color:black;
-	 
-
+	 border: none;
 }
 .main-logo{
 	opacity:.7;
 }
 .navbar-default .navbar-brand {
 color: #FFF;
-border-bottom: #F89406;
+
 }
+
 .navbar-default .navbar-nav>li>a {
 color: #FFF;
 }
@@ -46,6 +46,19 @@ h1,h2,h3,h4,h5,h6{
 .thumb{
 	padding:0;
 }
+.orange{
+	color: #F5AB35;
+}
 h1 {
 	font-size:48px;
+	color: #F5AB35;
+}
+h2,h3,h4,h5,h6{
+	color: #D2D7D3;
+}
+p{
+	font-family: 'Source Code Pro', helvetica;
+}
+.about-paragraph{
+	font-size: 24px;
 }
