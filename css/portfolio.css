@@ -15,7 +15,7 @@ p {
 	padding-left: 20px;
 	list-style: none;
 	font-size: 32px;
-	font-family: 'Amatic SC', cursive;
+	font-family: six-caps, sans-serif;;
 	opacity:1;
 	color: white;
 }
@@ -25,7 +25,18 @@ p {
 
 }
 .main-logo{
-	opacity:.7;
+	/*opacity:.5;*/
+}
+h1.main-logo{
+	/*font-family: londrina-outline, sans-serif;*/
+
+
+	/*font-family: monofett, fantasy;*/
+	/*font-family: nosifer, fantasy;*/
+	/*font-family: open-sans, sans-serif;*/
+	/*font-family: bebas-neue, sans-serif;*/
+	font-family: six-caps, sans-serif;
+	font-size: 172px;
 }
 .navbar-default .navbar-brand {
 color: #FFF;
@@ -47,13 +58,7 @@ h1,h2,h3,h4,h5,h6{
 .thumb{
 	padding:0;
 }
-.orange{
-	color: #F5AB35;
-}
-h1 {
-	font-size:48px;
-	color: #F5AB35;
-}
+
 h2,h3,h4,h5,h6{
 	color: #D2D7D3;
 }
