@@ -1,6 +1,4 @@
-p {
-	color:white;
-}
+
 .intro{
 	display: table;
     width: 100%;
@@ -8,7 +6,7 @@ p {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(https://raw.githubusercontent.com/alejandro-londono/HANDRO/gh-pages/img/IMG_2327%20copy.jpg) no-repeat bottom center scroll;
+    background: url(https://raw.githubusercontent.com/alejandro-londono/HANDRO/gh-pages/img/IMG_2327_faded.jpg) no-repeat bottom center scroll;
     background-size: cover;
 }
 .nav-link{
@@ -19,17 +17,32 @@ p {
 	opacity:1;
 	color: white;
 }
-.navbar-custom{
-	background-color:black;
-	 border:none;
+button {
+  background-color: rgba(240, 248, 255, 0);
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+button:hover{
+	boder:none;
+	background-color: white;
 
 }
+
+nav{
+	float:right;
+	margin-right:200px;
+}
+.nav-link a{
+	color: white;
+	margin-left: 20px
+	font-size: 50px;
+	}
 .main-logo{
 	/*opacity:.5;*/
 }
 h1.main-logo{
 	/*font-family: londrina-outline, sans-serif;*/
-
 
 	/*font-family: monofett, fantasy;*/
 	/*font-family: nosifer, fantasy;*/
@@ -51,9 +64,11 @@ color: #FFF;
 	width:100%;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Amatic SC', cursive;
+	font-family: six-caps, sans-serif;
 	color: white;
-
+}
+h2{
+	font-size:72px;
 }
 .thumb{
 	padding:0;
@@ -63,10 +78,16 @@ h2,h3,h4,h5,h6{
 	color: #D2D7D3;
 }
 p{
-	font-family: 'Source Code Pro', helvetica;
+	font-family: open-sans, sans-serif;
+	color:white;
+	size:24px;
+}
+#about{
+	padding: 0 100px;
 }
 .about-paragraph{
-	font-size: 24px;
+	width:600px;
+	height:auto;
 }
 #overlay{
   background:rgba(0,0,0,0.7);
