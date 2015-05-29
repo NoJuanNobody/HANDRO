@@ -1,5 +1,9 @@
 
-
+  .parallax__group {
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+  }
   .parallax {
     height: 100vh;
     overflow-x: hidden;
@@ -15,41 +19,50 @@
     right: 0;
     bottom: 0;
   }
-
   .parallax__layer--base {
     -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-
+    transform: translateZ(0) translateY(-700px);
+    z-index: 5;
   }
 
   .parallax__layer--back {
     -webkit-transform: translateZ(-1px);
-    transform: translateZ(-1px);
-	
+    transform: translateZ(-1px) scale(2);	
   }
 
   .parallax {
-    font-size: 200%;
+   /* font-size: 00%;*/
   }
 
    /* add some padding to force scrollbars */
   .parallax__layer {
     padding: 100vh 0;
   }
-
+.back-content{
+	/*width:50px;
+	height:50px;
+	background:red;*/
+	width: 100%;
+    height: 800px;
+    padding: 0;
+    
+    color: #fff;
+    background: url(https://raw.githubusercontent.com/alejandro-londono/HANDRO/gh-pages/img/IMG_2327_faded.jpg) no-repeat bottom center scroll;
+    background-size: cover;
+}
    /* centre the content in the parallax layers */
 .intro{
-	
-    width: 100%;
+	background:black;
+    /*width: 100%;
     height: 800px;
     padding: 100px 0;
     text-align: center;
     color: #fff;
     background: url(https://raw.githubusercontent.com/alejandro-londono/HANDRO/gh-pages/img/IMG_2327_faded.jpg) no-repeat bottom center scroll;
-    background-size: cover;
+    background-size: cover;*/
 }
 .nav-link{
-	padding-left: 20px;
+	margin-left: 20px;
 	list-style: none;
 	font-size: 32px;
 	font-family: six-caps, sans-serif;;
@@ -65,9 +78,10 @@ button {
 button:hover{
 	boder:none;
 	background-color: white;
-
 }
-
+.navbar{
+  margin:0 100px;
+}
 nav{
 	float:right;
 	margin-right:200px;
@@ -81,14 +95,9 @@ nav{
 	/*opacity:.5;*/
 }
 h1.main-logo{
-	/*font-family: londrina-outline, sans-serif;*/
-
-	/*font-family: monofett, fantasy;*/
-	/*font-family: nosifer, fantasy;*/
-	/*font-family: open-sans, sans-serif;*/
-	/*font-family: bebas-neue, sans-serif;*/
 	font-family: six-caps, sans-serif;
 	font-size: 172px;
+  text-align:center;
 }
 .navbar-default .navbar-brand {
 color: #FFF;
@@ -117,7 +126,7 @@ h2,h3,h4,h5,h6{
 	color: #D2D7D3;
 }
 p{
-	font-family: open-sans, sans-serif;
+	font-family: 'open-sans', sans-serif;
 	color:white;
 	size:24px;
 }
@@ -139,4 +148,11 @@ p{
 }
 #overlay img{
 margin-top:10%;
+}
+.contact{
+  float:right;
+  margin-right: 100px;
+}
+.opaque{
+  opacity:.4;
 }
